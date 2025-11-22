@@ -81,17 +81,3 @@ Seleção de features
 📒 Jupyter Notebook
 
 ☁️ API (GitHub Raw JSON)
-
-▶️ Como Executar o Projeto
-1️⃣ Clonar o repositório
-git clone https://github.com/phsmottanerd/Projeto-Telecom-X---An-lise-de-Evas-o-de-Clientes-.git
-cd Projeto-Telecom-X---An-lise-de-Evas-o-de-Clientes-
-
-2️⃣ Instalar dependências
-pip install -r requirements.txt
-
-3️⃣ Executar o notebook
-
-Abra o arquivo no Jupyter:
-
-jupyter notebook notebook.ipynb
