@@ -1,83 +1,50 @@
 🚀 Projeto Telecom X — Análise de Churn (Evasão de Clientes)
+📋 Descrição
 
-Este repositório apresenta uma análise completa sobre o Churn (evasão de clientes) da empresa fictícia Telecom X, utilizando técnicas de Ciência de Dados, ETL, Visualização e Modelagem Preditiva.
-O objetivo é identificar os fatores que mais influenciam a saída dos clientes e construir uma base sólida para futuras estratégias de retenção.
+Este projeto analisa o índice de evasão de clientes (churn) da Telecom X, utilizando um pipeline completo de ETL, análise exploratória e visualização de dados. O objetivo é identificar padrões que influenciam a saída de clientes e apoiar a criação de modelos preditivos focados em retenção.
 
-📌 Principais Objetivos do Projeto
+🗂 Estrutura do Projeto
 
-📥 Realizar ETL (Extração, Transformação e Carregamento) dos dados provenientes de uma API.
+TelecomX_Data.json — Dados brutos extraídos da API.
 
-🔍 Realizar Análise Exploratória de Dados (EDA) detalhada.
+notebook.ipynb — Processo de ETL, EDA e visualizações.
 
-🧪 Identificar padrões relevantes associados ao churn.
+README.md — Documentação completa.
 
-🤖 Criar e avaliar um modelo de Machine Learning para prever a evasão.
+requirements.txt — Dependências Python necessárias.
 
-📈 Gerar insights acionáveis para o negócio.
+📊 Insights e Análises
 
-🗂 Estrutura do Repositório
-📦 Projeto-Telecom-X-Churn
-├── 📓 notebook.ipynb               → Análise completa (ETL, EDA, ML)
-├── 📄 README.md                    → Documentação do projeto
-├── 📦 requirements.txt             → Dependências necessárias
-└── 📁 TelecomX_Data.json           → Base de dados utilizada
+🔍 Churn por Tipo de Contrato
+Identificação dos tipos de contrato com maior taxa de evasão.
 
-📊 Principais Insights Gerais
+🔗 Correlação entre Variáveis
+Análise da relação entre custo mensal, tempo de permanência e churn.
 
-Clientes com contrato mensal apresentam maior risco de churn.
+🛠 Impacto dos Serviços Contratados
+Avaliação dos serviços que aumentam ou reduzem a retenção.
 
-O aumento nas taxas mensais (MonthlyCharges) está diretamente associado ao desligamento.
+⚙️ Ferramentas Utilizadas
 
-Usuários que não utilizam serviços como internet fibra, streaming ou telefone têm padrões diferentes de evasão.
+Python • Pandas • Matplotlib • Seaborn • Jupyter Notebook
 
-Clientes com pouco tempo de casa tendem a cancelar mais rapidamente.
+▶️ Como Executar
 
-O notebook contém gráficos detalhados, correlações, análise por serviços e muito mais.
+Clone o repositório oficial:
 
-🤖 Modelagem Preditiva
+git clone https://github.com/fabiolinkin01r-pixel/Projeto_Telecom_X_An-lise_de_Evas-o_de_Clientes_-Churn-.git
 
-Foi construído um pipeline utilizando:
 
-ColumnTransformer
+Acesse a pasta do projeto:
 
-StandardScaler
+cd Projeto_Telecom_X_An-lise_de_Evas-o_de_Clientes_-Churn-
 
-OneHotEncoder
 
-Logistic Regression
+Instale as dependências:
 
-Métricas avaliadas:
+pip install -r requirements.txt
 
-📌 Acurácia
 
-📌 Precisão, Recall e F1-score
+Execute o notebook:
 
-📌 ROC-AUC
-
-📌 Matriz de confusão
-
-📌 Curva ROC
-
-O modelo serve como baseline, deixando espaço para melhorias como:
-
-SMOTE
-
-XGBoost / Random Forest
-
-Otimização de hiperparâmetros
-
-Seleção de features
-
-⚙️ Tecnologias Utilizadas
-
-🐍 Python
-
-📘 Pandas
-
-📊 Matplotlib / Seaborn
-
-🤖 Scikit-Learn
-
-📒 Jupyter Notebook
-
-☁️ API (GitHub Raw JSON)
+jupyter notebook
