@@ -1,50 +1,32 @@
-🚀 Projeto Telecom X — Análise de Churn (Evasão de Clientes)
+🚀 Projeto Telecom X — Análise de Churn
 📋 Descrição
 
-Este projeto analisa o índice de evasão de clientes (churn) da Telecom X, utilizando um pipeline completo de ETL, análise exploratória e visualização de dados. O objetivo é identificar padrões que influenciam a saída de clientes e apoiar a criação de modelos preditivos focados em retenção.
+Análise dos fatores que levam clientes da Telecom X a cancelar seus serviços. O projeto inclui ETL, exploração dos dados e identificação dos principais pontos ligados ao churn.
 
-🗂 Estrutura do Projeto
+🗂 Estrutura
 
-TelecomX_Data.json — Dados brutos extraídos da API.
+TelecomX_Data.json — Dados brutos.
 
-notebook.ipynb — Processo de ETL, EDA e visualizações.
+notebook.ipynb — ETL, análises e gráficos.
 
-README.md — Documentação completa.
+requirements.txt — Dependências.
 
-requirements.txt — Dependências Python necessárias.
+README.md — Informações gerais.
 
-📊 Insights e Análises
+📊 Insights
 
-🔍 Churn por Tipo de Contrato
-Identificação dos tipos de contrato com maior taxa de evasão.
+Tipos de contrato com maior ocorrência de churn.
 
-🔗 Correlação entre Variáveis
-Análise da relação entre custo mensal, tempo de permanência e churn.
+Relação entre custo, tempo de permanência e evasão.
 
-🛠 Impacto dos Serviços Contratados
-Avaliação dos serviços que aumentam ou reduzem a retenção.
+Impacto dos serviços contratados na retenção.
 
-⚙️ Ferramentas Utilizadas
+🛠 Ferramentas
 
-Python • Pandas • Matplotlib • Seaborn • Jupyter Notebook
+Python, Pandas, Matplotlib, Seaborn, Jupyter Notebook.
 
-▶️ Como Executar
-
-Clone o repositório oficial:
-
+▶️ Execução
 git clone https://github.com/fabiolinkin01r-pixel/Projeto_Telecom_X_An-lise_de_Evas-o_de_Clientes_-Churn-.git
-
-
-Acesse a pasta do projeto:
-
 cd Projeto_Telecom_X_An-lise_de_Evas-o_de_Clientes_-Churn-
-
-
-Instale as dependências:
-
 pip install -r requirements.txt
-
-
-Execute o notebook:
-
 jupyter notebook
